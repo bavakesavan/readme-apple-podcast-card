@@ -59,7 +59,7 @@ def get_podcast_card(podcast_title, card):
     track_name = podcast.track_name
     artist_name = podcast.artist_name
 
-    podcast_description = ""
+    podcast_description = "Unreachable"
 
     if card == "simple":
         card_template = "podcast_simple.html.j2"
