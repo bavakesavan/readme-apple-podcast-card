@@ -14,7 +14,7 @@ There are 3 different designs to choose from.
   
 ### Detailed
 
-<img align="centre" width="20%" src="https://readme-apple-podcast-card.vercel.app/?design=detail"/>
+<img align="centre" width="20%" src="https://readme-apple-podcast-card.vercel.app/?design=detailed"/>
 
 
 <!-- GETTING STARTED -->
