@@ -63,7 +63,7 @@ def get_podcast_card(podcast_title, card):
 
     if card == "simple":
         card_template = "podcast_simple.html.j2"
-    elif card == "detail":
+    elif card == "detailed":
         card_template = "podcast_detailed.html.j2"
         podcast_description = get_podcast_description(podcast.feed_url)
         podcast_description = (podcast_description[:110] + "...") if len(podcast_description) > 114 else podcast_description
