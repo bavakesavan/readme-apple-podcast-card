@@ -1,7 +1,7 @@
 import logging
 from dotenv import load_dotenv
 from flask import Flask, Response, request
-from podcast_card import get_podcast_card
+from src.podcast_card import get_podcast_card
 
 logging.basicConfig(level=logging.INFO)
 
