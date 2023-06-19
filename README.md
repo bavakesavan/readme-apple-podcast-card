@@ -1,37 +1,32 @@
-## Apple Podcast Widgets
+# Apple Podcast Widgets
 
-A widget to display your favourite podcasts on your Github readme.
+Elevate your GitHub readme with captivating widgets that showcase your favorite podcasts.
 
-There are 3 different designs to choose from.
-### Simple
+Introducing Apple Podcast Widgets, a collection of visually appealing designs to enhance your GitHub projects. Display podcasts of your choice in three unique styles that perfectly complement your readme.
 
-<img align="centre" width="20%" src="https://readme-apple-podcast-card.vercel.app/?design=simple"/>
+## Designs
 
-### Default
-
-<img align="centre" width="20%" src="https://readme-apple-podcast-card.vercel.app/"/>
-
-  
-### Detailed
-
-<img align="centre" width="20%" src="https://readme-apple-podcast-card.vercel.app/?design=detail"/>
+| Simple Design | Default Design | Detailed Design |
+|:-------------:|:--------------:|:---------------:|
+| ![Simple Design Widget](https://readme-apple-podcast-card.vercel.app/?design=simple) | ![Default Design Widget](https://readme-apple-podcast-card.vercel.app/) | ![Detailed Design Widget](https://readme-apple-podcast-card.vercel.app/?design=detailed) |
 
 
-<!-- GETTING STARTED -->
 ## Getting Started
 
-The widget can be added to your readme using the following link:
-`https://readme-apple-podcast-card.vercel.app/`
+Follow these simple steps to start using Apple Podcast Widgets:
 
-Specify the podcast you wish to display by using the parameter `podcast` at the end of the url.
-`https://readme-apple-podcast-card.vercel.app/?podcast=huberman-lab`
+1. **Add the widget to your readme**: 
 
-<img align="centre" width="20%" src="https://readme-apple-podcast-card.vercel.app/?podcast=huberman-lab"/>
+   - Include the following link in your readme: `(https://readme-apple-podcast-card.vercel.app/`
+   - Specify the podcast you wish to display by appending the `podcast` parameter at the end of the URL. For example: `https://your-vercel-deployment-url/?podcast=huberman-lab`
+   - Ensure you replace any empty spaces in the podcast name with hyphens (-).
 
-Replace empty spaces with `-` in the podcast name.
+<p align="center">
+  <img align="center" width="20%" src="https://readme-apple-podcast-card.vercel.app/?podcast=huberman-lab"/>
+</p>
 
-To choose the widget style, specify the `deisgn` at the end of the url. 
-There are 3 designs to choose from:
-`Simple`, `Default`, `Detailed`
+2. **Customize the widget style**: Personalize the widget's appearance by selecting your preferred design style. Include the `design` parameter in the URL with options like `Simple`, `Default`, or `Detailed`.
 
-Thank you for you support.
+<p align="center">
+  <img align="center" width="20%" src="https://readme-apple-podcast-card.vercel.app/?design=simple&podcast=huberman-lab"/>
+</p>
