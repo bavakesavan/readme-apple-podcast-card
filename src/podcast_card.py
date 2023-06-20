@@ -41,7 +41,8 @@ def get_podcast_card(podcast_title, card):
         podcast_description = (podcast_description[:100] + "...") if len(
             podcast_description) > 100 else podcast_description
     else:
-        track_name = (track_name[:18] + "...") if len(track_name) > 18 else track_name
+        artist_name = (artist_name[:28] + "...") if len(artist_name) > 28 else artist_name
+        track_name = (track_name[:17] + "...") if len(track_name) > 17 else track_name
         card_template = "podcast.html.j2"
 
     svg = render_template(
