@@ -1,3 +1,7 @@
+<p align="center">
+  <img align="center" width="20%" src="https://readme-apple-podcast-card.vercel.app/?podcast=The-Joe-Rogan-Experience"/>
+</p>
+
 # Apple Podcast Widgets
 
 Elevate your GitHub readme with captivating widgets that showcase your favorite podcasts.
