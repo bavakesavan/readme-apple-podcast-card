@@ -5,7 +5,7 @@ import xml.etree.ElementTree as xmlTree
 from base64 import b64encode
 from dotenv import load_dotenv
 from flask import Flask, Response, render_template, request
-from podcast import Podcast
+from src.podcast import Podcast
 
 logging.basicConfig(level=logging.INFO)
 
