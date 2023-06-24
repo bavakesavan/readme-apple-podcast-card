@@ -24,3 +24,12 @@ def get_podcast_description(feed_url):
             return None
     else:
         return None
+
+
+def shorten_text(text, length):
+    if len(text) > length:
+        text = text[:length].rstrip()
+        if text[-1] == ' ':
+            text = text[:-1]
+        text = text + '...'
+    return text

@@ -1,7 +1,7 @@
 import requests
 
 from flask import render_template
-from src.utils.utils import album_art_b64, get_podcast_description
+from src.utils.utils import album_art_b64, get_podcast_description, shorten_text
 from src.podcast import Podcast
 
 APPLE_ICON = "https://www.freepnglogos.com/uploads/apple-logo-png/apple-logo-png-transparent-svg-vector-bie-supply-29.png"
@@ -38,11 +38,10 @@ def get_podcast_card(podcast_title, card):
     elif card == "detailed":
         card_template = "podcast_detailed.html.j2"
         podcast_description = get_podcast_description(podcast.feed_url)
-        podcast_description = (podcast_description[:100] + "...") if len(
-            podcast_description) > 100 else podcast_description
+        podcast_description = shorten_text(podcast_description, 100)
     else:
-        artist_name = (artist_name[:28] + "...") if len(artist_name) > 28 else artist_name
-        track_name = (track_name[:17] + "...") if len(track_name) > 17 else track_name
+        artist_name = shorten_text(artist_name, 28)
+        track_name = shorten_text(track_name, 16)
         card_template = "podcast.html.j2"
 
     svg = render_template(
