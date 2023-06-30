@@ -41,7 +41,7 @@ def get_podcast_card(podcast_title, card):
         podcast_description = shorten_text(podcast_description, 100)
     else:
         artist_name = shorten_text(artist_name, 28)
-        track_name = shorten_text(track_name, 16)
+        track_name = shorten_text(track_name, 18)
         card_template = "podcast.html.j2"
 
     svg = render_template(
